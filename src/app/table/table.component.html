@@ -1,0 +1,26 @@
+<table class="table-light">
+    <div class="table-responsive">
+
+        <table class="table-light" style="height:100%;margin-left: 300px;margin-top: -130px;z-index: 1; ">
+            <thead>
+                <tr style="background-color: #EFF1F3;">
+                  <th scope="col"><p>USER ID/NAME</p></th>
+                  <th scope="col"><p>PHONE NUMBER</p></th>
+                  <th scope="col"><p>TRANSACTION CATEGORY</p></th>
+                  <th scope="col"><p>TRANSACTION AMOUNT</p></th>
+                  <th scope="col"><p>ACCOUNT TYPE</p></th>
+                  <th scope="col"><p>BALANCE AMOUNT</p></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr  *ngFor="let data of database">
+                  <th class="row"><p class="name">{{data.name}}</p><br><p class="id">ID {{data.id}}</p></th>
+                  <td><p class="num">{{data.phone}}</p></td>
+                  <td><p class="num">{{data.Income}}</p><p class="id">{{data.type}}</p></td>
+                  <td><p class="name">{{data.transaction}}</p></td>
+                  <td><p class="id">{{data.account}}</p></td>
+                  <td><p class="name">{{data.balance}}</p></td>
+                </tr>
+        </table>
+      </div>
+</table>

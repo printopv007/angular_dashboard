@@ -1,0 +1,56 @@
+*{
+    font-family:Archivo;
+    float: left;
+}
+.side{
+    width: 25%;
+    float: left;
+}
+a,h3{
+text-decoration: none;
+color: #202020;
+font-family: Archivo;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+.id{
+    margin-top: -5%;
+    color: #707070;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.id1{
+    margin-top: -5%;
+    color: #707070;
+font-family: Archivo;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.num{
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.vertical{
+    width: 1px;
+    background: #EAEAEA;;
+    height:100%;
+     position:absolute;
+    left:15%
+}
+a.active{
+    border-radius: 0px 5px 5px 0px;
+background: #005EFF;
+    
+}

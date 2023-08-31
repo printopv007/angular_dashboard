@@ -1,0 +1,84 @@
+
+<app-sidebar></app-sidebar> 
+
+
+
+    <div class="container">
+      <p class="num">Dashboard</p><br><br><br>
+      <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class="row" style="margin-left: -300px;">
+        <div style="width: 445px;height: 40px;border-radius: 19.5px;border: 1px solid #EAEAEA;display: block;float: left;" class="col-md-4">
+          <img style="margin-top: 3px;margin-left: -10px;" src="/assets/images/Group 1086591.svg" alt="">
+           <p style="color: #202020;font-family: Archivo;font-size: 14px;font-style: normal;font-weight: 400;line-height: normal;margin-top: -23px;margin-left: 36px;">You Have <span style="font-weight: 600;">32 Support</span> Request Pending for Response  <a routerLink="" style="margin-left: 20px;;">View</a> </p>
+        </div>
+        <div class="container text-center mt-3">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div style="border-radius: 10px;background: #005EFF;width: 217px;height: 141px; display: flex; flex-direction: column; justify-content: flstart; align-items: start;margin-right: 20px;">
+              <br><p>Total Users</p>
+              <h3>1,567</h3>
+              <div style="display: flex; justify-content: center;">
+                <p style="background-color: #EAEAEA;border-radius: 8.5px;font-size: 12px;color: #000;padding-left: 20px;"> 2.36% <img src="/assets/images/bi_arrow-up-short.svg" alt=""></p>
+                <p>Since last month</p>
+              </div>
+            </div>
+            <div style="border-radius: 10px;background: #4A9C88;width: 217px;height: 141px; display: flex; flex-direction: column; justify-content: flstart; align-items: start;margin-right: 20px;">
+              <br><p>Total Users</p>
+              <h3>1,567</h3>
+              <div style="display: flex; justify-content: center;">
+                <p style="background-color: #EAEAEA;border-radius: 8.5px;font-size: 12px;color: #000;padding-left: 20px;"> 2.36% <img src="/assets/images/bi_arrow-up-short.svg" alt=""></p>
+              <p>Since last month</p>
+              </div>
+            </div>
+            <div style="border-radius: 10px;background: #005EFF;width: 217px;height: 141px; display: flex; flex-direction: column; justify-content: flstart; align-items: start;margin-right: 20px;">
+              <br><p>Total Users</p>
+              <h3>1,567</h3>
+              <div style="display: flex; justify-content: center;">
+                <p style="background-color: #EAEAEA;border-radius: 8.5px;font-size: 12px;color: #000;padding-left: 20px;"> 2.36% <img src="/assets/images/bi_arrow-up-short.svg" alt=""></p>
+                <p>Since last month</p>
+              </div>
+            </div>
+            <div style="border-radius: 10px;background: #4A9C88;width: 217px;height: 141px; display: flex; flex-direction: column; justify-content: flstart; align-items: start;margin-right: 20px;">
+              <br><p>Total Users</p>
+              <h3 class="">1,567</h3>
+              <div style="display: flex; justify-content: center;">
+                <p style="background-color: #EAEAEA;border-radius: 8.5px;font-size: 12px;color: #000;padding-left: 20px;"> 2.36% <img src="/assets/images/bi_arrow-up-short.svg" alt=""></p>
+                <p>Since last month</p>
+              </div>
+            </div>
+             
+        </div>
+       
+          <h6 class="mt-3" style="color: #202020;float: left;margin-left: 20px;
+          font-family: Archivo;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;">Recently Active Users</h6>
+          <table class="table table-hover" style="margin-left: -50px;">
+            <thead>
+              <tr style="border-radius: 5px;background: #EFF1F3;height: 37px;width: 1168px;">
+                <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p class="id">USER ID/NAME</p></th>
+                    <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p  class="id">PHONE NUMBER</p></th>
+                    <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p class="id">TRANSACTION CATEGORY</p></th>
+                    <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p class="id" >TRANSACTION AMOUNT</p></th>
+                    <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p class="id">ACCOUNT TYPE</p></th>
+                    <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p class="id">BALANCE AMOUNT</p></th>
+                    <th scope="col"style="border-radius: 5px;background: #EFF1F3;height: 37px;"><p class="id"></p></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let data of database">
+                <th class="row"><p class="phone" style="font-weight: 600;text-align: left;">{{data.name}}</p><br><p class="id" style="margin-top: -10px;margin-left: -50px;">ID {{data.id}}</p></th>
+                    <td><p class="phone">{{data.phone}}</p></td>
+                    <td><p class="phone">{{data.Income}}</p><p class="id" style="margin-top: -10px;margin-left: -15px;">{{data.type}}</p></td>
+                    <td><p class="tra">{{data.transaction}}</p></td>
+                    <td><p class="phone">{{data.account}}</p></td>
+                    <td><p class="tra">{{data.balance}}</p></td>
+                    <td><a routerLink="" class="tra display_on_hover" style="float: right; padding-top: 20px;">View</a></td>
+              </tr>
+            </tbody></table>
+            <button style="width: 98px;
+            height: 39px;
+            flex-shrink: 0;border-radius: 24px;
+border: 1px solid #202020;">View All</button>
+         

@@ -1,0 +1,105 @@
+*{
+    font-family:Archivo;
+}
+.num{
+    float: left;
+    padding-top: 30px;
+    color: #202020;
+    font-family: Archivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.lorem{
+width: 800px;
+float: left;
+margin-top: 0px;
+margin-left: -117px;
+color: #707070;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+a{
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.id{
+    color: #707070;
+font-family: Archivo;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.per{
+    width: 61px;
+    height: 17px;
+    background-color: #fff;
+    border-radius: 8.5px;
+    position: absolute;
+    color: #000;
+font-family: Archivo;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.name{
+    margin-top: -5%;
+    color: #707070;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+p{
+    color: #FFF;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.phone{
+    color: #202020;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.tra{
+    color: #202020;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+h3{
+    
+    color: #FFF;
+    font-family: Archivo;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.display_on_hover{
+    display: none;
+}
+
+tr:hover .display_on_hover{
+    display: inline;
+}

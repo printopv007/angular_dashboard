@@ -1,0 +1,51 @@
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="bg"><p>Budget</p>
+            </div>
+         <div class="col">
+            <h6>Having Trouble? <span>Get Help</span></h6>
+            
+               <h5> <div class="flag-dropdown">
+                    <button class="dropdown-button" (click)="toggleDropdown()">
+                      <img [src]="selectedFlag.iconUrl" class="selected-flag" alt="{{ selectedFlag.country }}" />
+                      {{ selectedFlag.country }} <img src="/assets/images/arrow.svg" alt="">
+                    </button>
+                    <div class="dropdown-list" *ngIf="isDropdownOpen">
+                      <div *ngFor="let flag of flags" (click)="selectFlag(flag)" class="dropdown-item" style="margin-left: 10px;" >
+                        <img [src]="flag.iconUrl" class="flag-icon" alt="{{ flag.country }}" width="16px" height="12px" />
+                        <span>{{ flag.country }}</span>
+                      </div>
+                    </div>
+                  </div>
+             </h5>
+            
+            
+            <div class="content-fluid">
+                <h4 class="login">Login to Budget</h4>  
+                <h5 class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+                <form input action="">
+                    
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="firstName" name="email" value="johnsamuel1992@gmail.com" />
+                          <label class="form-control-label" for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                          <input type="{{ Show ? 'text' : 'password' }}" class="form-control" id="lastName" name="lastName" placeholder="Password" [(ngModel)]="password" (click)="togglePasswordVisibility()"  required />
+                          <label class="form-control-label1" for="password">
+                            <span class="toggle-link" (click)="togglePasswordVisibility()">
+                                {{ Show ? 'Hide' : 'Show' }} 
+                              </span>
+                            
+                        </label>
+ 
+                        </div>
+                        <input type="checkbox" class="check" id=""><label for="check" >Keep me logged in</label>
+                        <a href=""><label style="margin-left: 180px;" for="">Forgot Password?</label></a>
+                        <br><br><a routerLink="/dashboard" class="btn btn-primary" id="login" >Login</a>
+                        <a href=""><h5 class="p">Create an Account?</h5></a>
+                </form>
+            </div>
+
+         </div>
+        </div>
+    </div>

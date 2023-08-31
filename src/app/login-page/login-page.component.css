@@ -1,0 +1,171 @@
+*{
+    font-family:Archivo;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-size: 34px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 64px;
+} 
+.login{
+    margin-top: 200px;
+    
+    color: #202020;
+font-family: Archivo;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.lorem{
+    margin-top: 20px;
+    color: #707070;
+font-family: Archivo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.content-fluid{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+#firstName{
+    border-radius: 10px 10px 0px 0px;
+border: 1px solid #005EFF;
+}
+input,button{
+    z-index: 1;
+   width: 415px;
+   height: 65px;  
+}
+#lastName{
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #B0B0B0;
+}
+label{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.form-group {
+    
+    position: relative;
+    min-height: 65px;
+  }
+  
+  input.form-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  label.form-control-label {
+    position: absolute;
+    font-size: .8em;
+    top: 0;
+    left: 5px;
+    color: #707070;
+  }
+  form{
+    margin-top: 48px;
+  }
+  .check{
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+  }
+  .p{
+    color: #000;
+font-family: Archivo;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 150px;
+margin-top: 15px;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+  label.form-control-label1 {
+    font-weight: 400;
+    margin-left: 365px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 2;
+  }
+  h6{
+    width: 139px;
+    margin-top: 23px;
+    margin-left: 600px;
+    color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  span{
+    color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  option{
+     background-image:url(/assets/images/England.png);   
+  }
+  button.dropdown-button{
+    font-size: 12px;
+    font-weight: 500;
+    float: right;
+    margin: -26px 3px;
+    width: 80px;
+    height: 27px;
+    display: inline-flex;
+padding: 4px 12px;
+align-items: center;
+gap: 6px;
+border-radius: 5px;
+border: 1px solid #000;
+  }
+  img.selected-flag{
+    display: flex;
+    
+width: 16px;
+height: 12px;
+justify-content: center;
+align-items: center;
+  }
+  .flag-dropdown{
+    
+    float: right;
+    padding-left: 741px;
+  }
+ #bg{
+    max-width: 100%;
+    height: auto;
+    background-image: url(/assets/images/bg.jpeg);
+    height: 821px; 
+    width:   770px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+ }
+ #login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    width: 415px;
+   height: 65px; 
+    color: white;
+ }
